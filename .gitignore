@@ -1,0 +1,44 @@
+# --- Machine Learning Artifacts ---
+# Large NASA C-MAPSS or raw sensor data
+*.csv
+*.h5
+*.npy
+*.npz
+*.parquet
+/data/
+/raw_data/
+
+# Model checkpoints and weights
+*.pkl
+*.joblib
+*.pb
+*.tflite
+/models/
+/checkpoints/
+
+# --- Python & Environments ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+
+# --- Flutter / App (if in the same repo) ---
+.dart_tool/
+build/
+.pub-cache/
+.pub/
+/ios/.generated/
+/android/.gradle/
+
+# --- IDE & Logs ---
+.vscode/
+.idea/
+*.log
+.DS_Store
+
+# --- Database ---
+*.sqlite
+*.db
